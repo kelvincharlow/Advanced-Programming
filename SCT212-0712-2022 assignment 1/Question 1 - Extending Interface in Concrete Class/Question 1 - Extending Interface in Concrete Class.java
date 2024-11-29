@@ -3,7 +3,7 @@ package Lecture4_interfaces_abstract_classes;
 import org.jetbrains.annotations.NotNull;
 import java.util.Calendar;
 
-public class BaseTransaction implements TransactionInterface {
+public class Concrete BaseTransaction implements TransactionInterface {
     private final double amount;
     private final Calendar date;
     private final String transactionID;
